@@ -39,10 +39,9 @@ interface Props{
       <div className={style.relogioWrapper}>
         <Relogio tempo={tempo}/>
       </div>
-      <Button 
-      onClick={() => regressiva(tempo)}
-      texto="Começar"
-      />
+      <Button onClick={() => regressiva(tempo)}>
+       Começar
+      </Button>
     </div>
   )
 }
